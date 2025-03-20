@@ -1,0 +1,11 @@
+[package]
+name = "atomks-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "atomks"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.24.0"
