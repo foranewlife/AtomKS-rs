@@ -1,0 +1,25 @@
+# AtomKS Visual
+
+TODO
+
+## Features
+
+- TODO: Visualize atomic structures and simulation results. 
+- Support for multiple file formats.
+- Interactive 3D rendering.
+- Customizable visualization settings.
+
+## Installation
+
+To install the dependencies, run:
+pip install .
+
+## Using
+
+### view_density
+
+Data can be found in `atomks_visual/example/view_density`.
+
+```bash
+streamlit run atomks_visual/view_density.py 
+```
