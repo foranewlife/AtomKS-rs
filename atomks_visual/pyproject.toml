@@ -3,16 +3,13 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "atomks-vs"
+name = "atomks_visual"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
-
-[tool.setuptools.packages.find]
-where = ["atomks-vs"]  # Adjust if your package is in a subdirectory
-
+dynamic = ["version"]
 
 [tool.isort]
 profile = "black"

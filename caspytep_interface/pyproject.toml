@@ -9,10 +9,7 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
-
-[tool.setuptools.packages.find]
-where = ["caspytep_interface"]  # Adjust if your package is in a subdirectory
-
+dynamic = ["version"]
 
 [tool.isort]
 profile = "black"
